@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+body {
+    font   : 100%/1.4 Arial, Verdana, Helvetica, sans-serif;
+    margin : 0;
+    padding: 0;
+    color  : #000;
+}
+
+ul,
+ol,
+dl {
+    padding: 0;
+    margin : 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top   : 0;
+    padding-right: 15px;
+    padding-left : 15px;
+}
+
+.container {
+    width           : 80%;
+    max-width       : 1260px;
+    min-width       : 980px;
+    background-color: #FFF;
+    margin          : 0 auto;
+    border: 1px;
+    border-style: inset;
+    border-color: #457B9D;
+}
+
+.labname {
+    margin          : 0 auto;
+    padding-top     : 20px;
+    font-size       : 36px;
+    width           : 100%;
+    height          : 150px;
+    background-color: #FFF;
+    color           : #1D3557;
+}
+
+.college {
+    width  : 980px;
+    height : 150px;
+    margin : 0 auto;
+    display: block;
+}
+
+.logo {
+    float : left;
+    width : 120px;
+    margin: 5px 5px 25px 0;
+}
+
+.logo img {
+    width : 120px;
+    height: 120px;
+}
+
+.group {
+    float       : left;
+    width       : 840px;
+    height      : 100px;
+    text-align  : left;
+    line-height : 1px;
+    padding-top : 40px;
+    padding-left: 10px;
+    font-size: 36px;
+}
+
+.school {
+    text-align : left;
+    height     : 30px;
+    font-size  : 18px;
+    font-style : italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color      : #999;
+    line-height: 30px;
+    margin-top : 0;
+}
+
+.nav {
+    width     : 100%;
+    height    : 46px;
+    background: #457B9D;
+
+}
+
+.navone {
+    width : 980px;
+    margin: 0 auto;
+}
+
+.navone ul li a {
+    font-size  : 16px;
+    color      : #F1FAEE;
+    line-height: 46px;
+    display    : block;
+}
+
+#nav {
+    display: block;
+    margin : 0 auto;
+    height : 46px;
+    clear  : both;
+    padding: 0px;
+}
+
+.menu {
+    float   : left;
+    width   : 196px;
+    height  : 46px;
+    position: relative;
+    display : block;
+}
+
+.menu>ul {
+    position: absolute;
+    left    : 0px;
+    margin  : 0px;
+    padding : 0px;
+    display : none;
+    *width  : 2000px;
+    z-index : 1000000000;
+}
+
+.menu li {
+    width : 175px;
+    height: 34px;
+}
+
+.menu>a {
+    color          : #F1FAEE;
+    font-weight    : bolder;
+    text-align     : center;
+    margin-left    : 2px;
+    display        : block;
+    width          : 175px;
+    height         : 46px;
+    text-decoration: none;
+}
+
+.menu>a:hover {
+    background-color: #F1FAEE;
+    color           : #1D3557;
+}
+
+.menu>a:visited {
+    text-decoration: none;
+}
+
+.menu>a:active {
+    text-decoration: none;
+}
+
+.content {
+    padding: 10px 0;
+}
+
+
+.content ul,
+.content ol {
+    padding: 0 15px 15px 40px;
+}
+
+/* 脚注 */
+.foot {
+    height          : 150px;
+}
+
+.footer {
+    width           : 984px;
+    padding         : 0;
+    margin          : 50px auto 0 auto;
+    color           : #1D3557;
+    font-size       : 14px;
+}
+
+.footer h2 {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-style: italic;
+    color: grey;
+}
+
+.footer a {
+    color          : #1D3557;
+    font-weight    : bolder;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background-color: #457B9D;
+    color: #F1FAEE;
+}
+
+.footer span {
+    float: left;
+    width: 450px;
+    text-align: left;
+}
+
+.line {
+    border: 0;
+    background-color: #457B9D;
+    height: 2px;
+    margin-top: 0;
+}
+/* .footer .contact {
+    margin: 25px 0 0 150px;
+    width : 450px;
+    float : left;
+}
+
+.footer .inquiries {
+    margin: 25px 80px 0 0;
+    width : 300px;
+    float : left;
+} */
+
+img {
+    display: block;
+    border : none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.lubo {
+    width        : 100%;
+    min-width    : 980px;
+    clear        : both;
+    position     : relative;
+    height       : 300px;
+}
+
+.lubo_box {
+    position: relative;
+    width   : 100%;
+    height  : 300px;
+}
+
+.lubo_box li {
+    float   : left;
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+    height  : 300px;
+    opacity : 0;
+    filter  : alpha(opacity=0);
+}
+
+.lubo_box li a {
+    display: block;
+    width  : 100%;
+    height : 100%;
+}
+
+.lubo_box li img {
+    width : 100%;
+    height: 300px;
+}
+
+/*圆点*/
+.cir_box {
+    overflow: hidden;
+    position: absolute;
+    z-index : 100;
+}
+
+.cir_box li {
+    float     : left;
+    width     : 30px;
+    height    : 5px;
+    margin    : 0 5px;
+    cursor    : pointer;
+    background: #fff;
+    opacity   : 0.8;
+    filter    : alpha(opacity=80);
+}
+
+.cir_on {
+    background: #000 !important;
+}
+
+/*按钮*/
+.lubo_btn {
+    position: absolute;
+    width   : 100%;
+    top     : 100px;
+}
+
+.left_btn,
+.right_btn {
+    width              : 30px;
+    height             : 80px;
+    background         : #000;
+    opacity            : 0.8;
+    filter             : alpha(opacity=80);
+    cursor             : pointer;
+    color              : #fff;
+    line-height        : 80px;
+    font-size          : 30px;
+    text-align         : center;
+    -webkit-user-select: none;
+    -moz-user-select   : none;
+    -ms-user-select    : none;
+    user-select        : none;
+}
+
+.left_btn {
+    float: left;
+}
+
+.right_btn {
+    float: right;
+}
