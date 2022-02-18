@@ -253,6 +253,8 @@ p {
 }
 .ri p {
   font-size: 12px !important;
+  text-indent: 0 !important;
+  word-wrap:break-word;
 }
 .right_sub1 {
   width: 680px;
@@ -357,7 +359,7 @@ p {
 
 .member {
   width: 580px;
-  height: 400px;
+  height: 350px;
   margin: 30px auto;
 }
 

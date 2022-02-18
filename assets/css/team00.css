@@ -368,6 +368,26 @@ p {
   margin-left: 10px !important;
   float: left;
 }
+.member1 {
+  width: 580px;
+  height: 350px;
+  margin: 30px auto;
+}
+
+.member1 h2 {
+  color: #457b9d;
+  background-color: #fff;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.member1 hr {
+  background-color: #457b9d;
+  height: 1px;
+  border: 0;
+  margin: 5px auto 30px auto;
+}
+
 .content {
   float: left;
   width: 420px;
